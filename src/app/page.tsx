@@ -1,4 +1,5 @@
-import Image from "next/image";
+import Link from "next/link";
+
 
 export default function Home() {
   return (
@@ -23,12 +24,12 @@ export default function Home() {
               Explore the latest developments in AI technology and their potential impact on society...
             </p>
             <div className="mt-4">
-              <a
+              <Link
                 href="/blog/future-of-ai"
                 className="text-blue-600 hover:text-blue-800 font-medium"
               >
                 Read more →
-              </a>
+              </Link>
             </div>
           </article>
         </div>
@@ -46,12 +47,12 @@ export default function Home() {
               <p className="mt-2 text-gray-600">
                 A beginner-friendly introduction to machine learning concepts...
               </p>
-              <a
+              <Link
                 href="/blog/machine-learning-basics"
                 className="text-blue-600 hover:text-blue-800 font-medium"
               >
                 Read more →
-              </a>
+              </Link>
             </article>
 
             <article className="prose">
@@ -61,12 +62,12 @@ export default function Home() {
               <p className="mt-2 text-gray-600">
                 Exploring the ethical considerations in AI development...
               </p>
-              <a
+              <Link
                 href="/blog/ethics-in-ai"
                 className="text-blue-600 hover:text-blue-800 font-medium"
               >
                 Read more →
-              </a>
+              </Link>
             </article>
           </div>
         </div>

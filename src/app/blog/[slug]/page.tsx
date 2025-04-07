@@ -1,10 +1,5 @@
-type Props = {
-  params: {
-    slug: string;
-  };
-};
 
-export default function BlogPost({ params }: Props) {
+export default function BlogPost() {
   // This would typically come from your CMS or database based on the slug
   const post = {
     title: "The Future of AI: Opportunities and Challenges",

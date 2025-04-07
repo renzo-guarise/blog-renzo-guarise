@@ -10,7 +10,7 @@ export default function About() {
               Welcome to My Corner of the Internet
             </h2>
             <p className="text-gray-600">
-              Hi! I'm [Your Name], a passionate explorer of artificial intelligence and its potential to transform our world. 
+              Hi! Im [Your Name], a passionate explorer of artificial intelligence and its potential to transform our world. 
               Through this blog, I share my insights, learnings, and thoughts about the rapidly evolving field of AI.
             </p>
             
@@ -25,7 +25,7 @@ export default function About() {
               What I Write About
             </h3>
             <p className="text-gray-600">
-              On this blog, you'll find articles about:
+              On this blog, youll find articles about:
             </p>
             <ul className="list-disc pl-6 text-gray-600">
               <li>Latest developments in AI and machine learning</li>
