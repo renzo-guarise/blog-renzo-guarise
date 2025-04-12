@@ -65,7 +65,5 @@ export default function BlogPost() {
 export async function generateStaticParams() {
   return [
     { slug: "future-of-ai" },
-    { slug: "machine-learning-basics" },
-    { slug: "ethics-in-ai" },
   ];
 }
