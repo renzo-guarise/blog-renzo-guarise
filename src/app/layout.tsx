@@ -2,12 +2,13 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import Link from "next/link";
+import FloatingButton from '@/components/FloatingButton'
 
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "AI Blog | Your Name",
-  description: "A blog about Artificial Intelligence and its impact on our world",
+  title: "Renzo Guarise - AI Blog",
+  description: "Personal blog about AI and technology",
 };
 
 export default function RootLayout({
@@ -47,6 +48,7 @@ export default function RootLayout({
             </div>
           </footer>
         </div>
+        <FloatingButton />
       </body>
     </html>
   );
